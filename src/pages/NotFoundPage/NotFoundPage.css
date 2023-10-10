@@ -1,0 +1,10 @@
+.section-error__content {
+  display: flex;
+  justify-content: center;
+}
+.section-error__text {
+  color: #42567A;
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}

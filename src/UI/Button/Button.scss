@@ -1,0 +1,97 @@
+@import '../../styles/variables.scss';
+
+.DAS-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+	gap: 8px;
+	background: $color-white;
+	border: none;
+	border-radius: 16px;
+	font-family: $font-main;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: $color-main-text;
+	cursor: pointer;
+	white-space: nowrap;
+
+	&-border {
+		border: 1px solid $color-light;
+	}
+
+	&-invert {
+		background: $color-secondary;
+		border: 1px solid $color-primary;
+		color: $color-primary;
+	}
+
+	&-disabled {
+		background: $color-gray-light;
+		color: $color-white;
+		cursor: auto;
+	}
+
+	&-xlarge {
+		height: 64px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	&-borderRadius {
+		&-large {
+			border-radius: 66px;
+		}
+
+		&-middle {
+			border-radius: 16px;
+		}
+
+		&-small {
+			border-radius: 8px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-xl) {
+	.DAS-button {
+		&-xlarge {
+			height: 56px;
+			line-height: 18px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-lg) {
+	.DAS-button {
+		padding: 12px 16px;
+
+		&-large {
+			height: 48px;
+			line-height: 18px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-sm) {
+	.DAS-button {
+		padding: 12px 16px;
+		&-xlarge {
+			font-size: 16px;
+		}
+
+		&-large {
+			font-size: 14px;
+		}
+
+		&-middle {
+			font-size: 14px;
+		}
+
+		&-small {
+			font-size: 14px;
+		}
+	}
+}

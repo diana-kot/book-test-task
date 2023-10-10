@@ -1,0 +1,30 @@
+.input-search {
+  position: relative;
+  margin-bottom: 24px;
+}
+.input-search__input {
+  height: 56px;
+  padding: 17px 17px 17px 48px;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid hsl(220, 19%, 82%);
+  border-radius: 100px;
+  outline: hsl(220, 19%, 82%);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  color: #1F1F1F;
+  max-width: 320px;
+  width: 100%;
+}
+.input-search__input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #42567A;
+}
+.input-search svg {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}

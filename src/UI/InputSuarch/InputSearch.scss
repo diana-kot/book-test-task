@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.input-search {
+	position: relative;
+	margin-bottom: 24px;
+
+	&__input {
+		height: 56px;
+		padding: 17px 17px 17px 48px;
+		box-sizing: border-box;
+		margin: 0;
+		border: 1px solid $color-light;
+		border-radius: 100px;
+		outline: $color-light;
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 22px;
+		color: $color-main-text;
+		max-width: 320px;
+		width: 100%;
+
+		&::placeholder {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 22px;
+			color: $black-blue;
+		}
+	}
+
+	svg {
+		position: absolute;
+		top: 17px;
+		left: 17px;
+	}
+}

@@ -1,0 +1,101 @@
+@import '../../styles/variables.scss';
+
+.DAS-select {
+	&__wrapper {
+	  display: flex;
+	  align-items: center;
+	  width: 100%;
+	  max-width: 390px;
+	  gap: 16px;
+  
+	  &-create {
+		gap: 0px;
+		margin-bottom: 0px;
+	  }
+	}
+  
+	&__container {
+	  display: flex;
+	  flex-direction: column;
+	  width: 100%;
+	  padding: 0;
+	  &-group {
+		width: 100%;
+	  }
+	}
+  
+	&__group {
+	  display: flex;
+	  flex-direction: column;
+	  &-item {
+		display: flex;
+		flex-direction: column;
+		color: rgba(0, 0, 0, 0.87);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+	  }
+  
+	  &-title {
+		padding: 8px 16px 0px 16px;
+		margin: 0px;
+		border-bottom: 1px solid $color-white;
+	  }
+	}
+  
+	&__sort {
+	  display: flex;
+	  text-align: center;
+	  align-items: center;
+	  color: $color-white;
+	  font-family: Inter;
+	  font-size: 13px;
+	  font-weight: 400;
+	  line-height: normal;
+	  min-width: max-content;
+	}
+  
+	&-item {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  gap: 8px;
+	  width: 100%;
+	  height: 40px;
+	  font-style: normal;
+	  font-weight: 300;
+	  font-size: 16px;
+	  line-height: 24px;
+	  transition: all 0.2s ease-in-out;
+
+	  &:hover {
+		background-color: $black-blue;
+		border-radius: 8px;
+		color: $color-white;
+	}
+  
+	  &__create {
+		color: #000;
+		font-size: 14px;
+		line-height: 22px;
+	  }
+  
+	  & > label {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 8px;
+		cursor: pointer;
+	  }
+  
+	  & > input {
+		display: none;
+	  }
+  
+	  &:hover {
+		border-radius: 8px;
+	  }
+	}
+  }
