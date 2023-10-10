@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ONLY-test-task/static/css/main.c9c8a959.css",
-    "main.js": "/ONLY-test-task/static/js/main.a749c138.js",
-    "static/js/787.f5db70bc.chunk.js": "/ONLY-test-task/static/js/787.f5db70bc.chunk.js",
-    "static/media/books.jpg": "/ONLY-test-task/static/media/books.390da97878de9a23238f.jpg",
-    "static/media/PTSans-Bold.woff2": "/ONLY-test-task/static/media/PTSans-Bold.4e1974633f8126b20e54.woff2",
-    "static/media/PTSans-Regular.woff2": "/ONLY-test-task/static/media/PTSans-Regular.a3a3486bacf6a72eee3b.woff2",
-    "static/media/BebasNeue-Regular.woff2": "/ONLY-test-task/static/media/BebasNeue-Regular.8eefcd4284319e1eb4ca.woff2",
-    "index.html": "/ONLY-test-task/index.html",
-    "static/media/search.svg": "/ONLY-test-task/static/media/search.07fba60e08ed3a4973cfc3668d95332f.svg",
-    "static/media/arrow_down.svg": "/ONLY-test-task/static/media/arrow_down.c21d90f0f88f649c91fcdecf3c2bef6e.svg",
-    "main.c9c8a959.css.map": "/ONLY-test-task/static/css/main.c9c8a959.css.map",
-    "main.a749c138.js.map": "/ONLY-test-task/static/js/main.a749c138.js.map",
-    "787.f5db70bc.chunk.js.map": "/ONLY-test-task/static/js/787.f5db70bc.chunk.js.map"
+    "main.css": "/book-test-task/static/css/main.996ebe3c.css",
+    "main.js": "/book-test-task/static/js/main.91d666c1.js",
+    "static/js/787.f5db70bc.chunk.js": "/book-test-task/static/js/787.f5db70bc.chunk.js",
+    "static/media/books.jpg": "/book-test-task/static/media/books.390da97878de9a23238f.jpg",
+    "static/media/PTSans-Bold.woff2": "/book-test-task/static/media/PTSans-Bold.4e1974633f8126b20e54.woff2",
+    "static/media/PTSans-Regular.woff2": "/book-test-task/static/media/PTSans-Regular.a3a3486bacf6a72eee3b.woff2",
+    "static/media/BebasNeue-Regular.woff2": "/book-test-task/static/media/BebasNeue-Regular.8eefcd4284319e1eb4ca.woff2",
+    "index.html": "/book-test-task/index.html",
+    "static/media/search.svg": "/book-test-task/static/media/search.07fba60e08ed3a4973cfc3668d95332f.svg",
+    "static/media/arrow_down.svg": "/book-test-task/static/media/arrow_down.c21d90f0f88f649c91fcdecf3c2bef6e.svg",
+    "main.996ebe3c.css.map": "/book-test-task/static/css/main.996ebe3c.css.map",
+    "main.91d666c1.js.map": "/book-test-task/static/js/main.91d666c1.js.map",
+    "787.f5db70bc.chunk.js.map": "/book-test-task/static/js/787.f5db70bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9c8a959.css",
-    "static/js/main.a749c138.js"
+    "static/css/main.996ebe3c.css",
+    "static/js/main.91d666c1.js"
   ]
 }
