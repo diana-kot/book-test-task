@@ -6,7 +6,6 @@ import Catalog from 'pages/Catalog/Catalog';
 import DetailBook from 'pages/DetailBook/DetailBook';
 import NotFoundPage from 'pages/NotFoundPage/NotFoundPage';
 
-
 export default function RouterConfig() {
     const routesConfig = [
         {
@@ -22,8 +21,8 @@ export default function RouterConfig() {
             element: <DetailBook />,
         },
         {
-            path: "*",
-            element: <NotFoundPage/>,
+            path: '*',
+            element: <NotFoundPage />,
         },
     ];
 

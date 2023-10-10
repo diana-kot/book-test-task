@@ -1,5 +1,5 @@
 export const routerPath = {
-    INDEX: '/',
+    INDEX: '/book-test-task',
     BOOKS: '/books',
     BOOK: 'books/:id',
 };
