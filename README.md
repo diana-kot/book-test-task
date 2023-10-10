@@ -1,5 +1,8 @@
 # React-приложение поиска книг с помощью Google Books API
 
+## Ссылки
+- [Ссылка на проект](https://diana-kot.github.io/book-test-task/)
+
 ## Стeк:
 * TypeScript
 * React
