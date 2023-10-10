@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "books",
-=======
-  "name": "animation",
   "homepage": "https://diana-kot.github.io/ONLY-test-task",
->>>>>>> 55c6bff9d9a9ba961ccc0b12749c98cda91062b8
   "version": "0.1.0",
   "private": true,
   "dependencies": {
